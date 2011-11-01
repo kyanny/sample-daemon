@@ -1,0 +1,6 @@
+$ ps aux | grep sample-daemon
+kyanny    6524  0.0  0.4  80856  2240 pts/6    Sl   17:32   0:00 ruby sample-daemon-single-fork.rb
+kyanny    6538  0.0  0.4  80856  2280 ?        Ssl  17:32   0:00 ruby sample-daemon-setsid.rb
+kyanny    6552  0.0  0.4  80856  2220 ?        Sl   17:32   0:00 ruby sample-daemon-double-fork.rb
+kyanny    6573  0.0  0.1  65392   840 pts/6    S+   17:32   0:00 grep sample-daemon
+
